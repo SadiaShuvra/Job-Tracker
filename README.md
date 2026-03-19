@@ -21,6 +21,7 @@ querySelectorAll-
 
 
 2. How do you create and insert a new element into the DOM?
+   
    ans:
     (i)Create the element
    const newDiv = document.createElement("div");
@@ -30,6 +31,7 @@ querySelectorAll-
    document.body.appendChild(newDiv);
 
    3. What is Event Bubbling? And how does it work?
+      
       ans: Event Bubbling is a concept in JavaScript, where
       ->It starts from the clicked element
       ->Then moves up to its parent
@@ -38,7 +40,7 @@ querySelectorAll-
 
       ex:
       <div id="parent">
-     <button id="child">Click Me</button>
+      <button id="child">Click Me</button>
      </div>
      it works like->
      (i)The event first triggers on the <button> (child)

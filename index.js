@@ -39,4 +39,16 @@ allContainer.classList.remove("hidden");
     }
   
 }
+//stat update
+const totalstat=document.getElementById("stat-total");
+const interviewstat=document.getElementById("stat-interview");
+const rejectstat=document.getElementById("stat-reject");
+totalstat.innerText=allContainer.children.length;
 switchTab(currentTab);
+document.getElementById("jobs-container").addEventListener("click",function(event){
+   const clickedElement= event.target;
+   console.log(clickedElement)
+   if(clickedElement.classList.contains("interview")){
+
+   }
+});

@@ -30,7 +30,7 @@ querySelectorAll-
    (iii)Insert it into the DOM
    document.body.appendChild(newDiv);
 
-   3. What is Event Bubbling? And how does it work?
+3. What is Event Bubbling? And how does it work?
       
       ans: Event Bubbling is a concept in JavaScript, where
       ->It starts from the clicked element
@@ -39,7 +39,7 @@ querySelectorAll-
       ->all the way up to document
 
       ex:
-      '''html
+      
     div id="parent"
     button id="child" Click Me button
     div
@@ -48,7 +48,7 @@ querySelectorAll-
      (ii)Then it “bubbles up” to the <div> (parent)
      (iii)Then continues up to <body> → <html> → document
 
-     4. What is Event Delegation in JavaScript? Why is it useful?
+ 4. What is Event Delegation in JavaScript? Why is it useful?
         ans:Instead of adding event listeners to many child elements,
            you add ONE event listener to their parent… and handle everything from there.
            It works because of event bubbling.
@@ -57,8 +57,7 @@ querySelectorAll-
    1.One listener instead of many
    2.Even if you add new buttons later, it still works
    3.Less repetition
-
-   5. What is the difference between preventDefault() and stopPropagation() methods?
+ 5. What is the difference between preventDefault() and stopPropagation() methods?
       ans:The difference between  preventDefault() and stopPropagation() methods are given below:
 
       event.preventDefault()-

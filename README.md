@@ -40,9 +40,9 @@ querySelectorAll-
 
       ex:
       '''html
-    <div id="parent">
-    <button id="child">Click Me</button>
-    </div>
+    div id="parent"
+    button id="child" Click Me button
+    div
      it works like->
      (i)The event first triggers on the <button> (child)
      (ii)Then it “bubbles up” to the <div> (parent)
